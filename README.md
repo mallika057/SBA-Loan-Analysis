@@ -115,7 +115,7 @@ Interactive slicers allow users to explore the data by fiscal year, state, loan 
 ## 9. Key Findings
 
 - The dataset contains 5,000 loan records across 18 columns.
-- The sum of annual loan approval amounts in the analysis is approximately **$2.569 billion**.
+- The sum of annual loan approval amounts in the analysis is approximately **$2.57 billion**.
 - The average loan approval amount is approximately **$513,861**.
 - The average recorded initial interest rate is approximately **8.86%**.
 - The average loan term is approximately **138 months**.
