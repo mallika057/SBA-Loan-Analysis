@@ -22,6 +22,8 @@ The project follows an end-to-end data analytics workflow using **Python, MySQL,
 - **Records:** 5,000
 - **Columns:** 18
 - **Data types:** Numerical, categorical, and date-related fields
+- **CSV dataset:** 5,000 records × 18 columns
+- **MySQL source table:** 5,000 records × 19 columns (including the additional `LoanID` primary key) 
 - **Source:** [U.S. Small Business Administration — 7(a) and 504 FOIA Data](https://data.sba.gov/dataset/7a-504-foia)
 
 The dataset contains information related to loan approvals, business characteristics, loan status, interest rates, loan terms, charge-offs, and jobs supported.
@@ -188,11 +190,11 @@ The interactive Power BI dashboard contains three pages.
 
 Interactive slicers allow users to explore the data by fiscal year, state, loan status, and business type.
 
-## 12. Dashboard Screenshots
+## ## 12. Dashboard Screenshots
 
 The three-page Power BI dashboard screenshots are available here:
 
-[View Dashboard Screenshots (PDF)](sba_dashboard_screenshort.pdf)
+[View Dashboard Screenshots (PDF)]
 
 ## 13. Project Repository
 
@@ -245,21 +247,14 @@ These findings describe the available dataset and should not automatically be in
 
 ```text
 SBA-Loan-Analysis/
-├── data/
-│   ├── SBALoanData-LoanApproval_DefaultAnalysis.csv
-│   └── processed/
-│       └── sba_loan_cleaned.csv
-├── notebooks/
-│   └── sample.ipynb
-├── sql/
-│   └── sba_loan_analysis.sql
-├── powerbi/
-│   └── SBA_Loan_Analysis.pbix
-├── report/
-│   └── SBA_Loan_Analysis_Project_Report.pdf
-├── presentation/
-│   └── SBA_Loan_Analysis_Presentation.pptx
-├── screenshots/
+├── sample.ipynb
+├── sba_loan_analysis.sql
+├── SBA_Loan_Analysis.pbix
+├── SBA_Loan_Analysis_Project_Report.pdf
+├── SBA_Loan_Analysis_Presentation.pptx
+├── SBALoanData-LoanApproval_DefaultAnalysis.csv
+├── sba_loan_cleaned.csv
+├── SBA_Dashboard_Screenshots.pdf
 └── README.md
 ```
 
