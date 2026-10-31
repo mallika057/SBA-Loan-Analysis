@@ -190,7 +190,7 @@ The interactive Power BI dashboard contains three pages.
 
 Interactive slicers allow users to explore the data by fiscal year, state, loan status, and business type.
 
-## ## 12. Dashboard Screenshots
+## 12. Dashboard Screenshots
 
 The three-page Power BI dashboard screenshots are available here:
 
