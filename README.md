@@ -194,8 +194,7 @@ Interactive slicers allow users to explore the data by fiscal year, state, loan 
 
 The three-page Power BI dashboard screenshots are available here:
 
-[View Dashboard Screenshots (PDF)]
-
+[View Dashboard Screenshots (PDF)](SBA_Dashboard_Screenshots.pdf)
 ## 13. Project Repository
 
 The complete project files, including the Python notebook, SQL scripts, cleaned dataset, Power BI dashboard, and project documentation, are available on GitHub.
