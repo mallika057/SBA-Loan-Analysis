@@ -310,6 +310,13 @@ WHERE Table_type = 'VIEW';
 
 USE sba_loan_analysis;
 
+-- =====================================================
+-- FRESH DATABASE SETUP ONLY
+-- Creates the state-wise summary table.
+-- This table already exists in the current database.
+-- DO NOT EXECUTE this block again on the populated database.
+-- =====================================================
+
 CREATE TABLE state_loan_summary AS
 SELECT
     ProjectState,
