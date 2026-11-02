@@ -468,6 +468,14 @@ SELECT 'fact_sba_loan', COUNT(*) FROM fact_sba_loan;
 
 USE sba_loan_analysis;
 
+-- =====================================================
+-- FRESH DATABASE SETUP ONLY
+-- Populates the dimension table from the source data.
+-- These dimension tables are already populated
+-- in the current database.
+-- DO NOT EXECUTE again on the existing database.
+-- =====================================================
+
 -- 1. Approval date dimension
 INSERT INTO dim_approval_date (ApprovalDateText, ApprovalFY)
 SELECT DISTINCT ApprovalDate, ApprovalFY
