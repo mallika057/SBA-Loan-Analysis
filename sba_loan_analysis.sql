@@ -373,9 +373,11 @@ SELECT
 FROM sba_loan_data;
 
 
+USE sba_loan_analysis;
+
+
 DESCRIBE sba_loan_data;
 
-USE sba_loan_analysis;
 
 -- 1. Dimension: Approval year and date
 CREATE TABLE IF NOT EXISTS dim_approval_date (
@@ -487,14 +489,6 @@ SELECT DISTINCT
     RevolverStatus
 FROM sba_loan_data;
 
-SELECT 'dim_state' AS TableName, COUNT(*) AS TotalRows
-FROM dim_state
-UNION ALL
-SELECT 'dim_approval_date', COUNT(*) FROM dim_approval_date
-UNION ALL
-SELECT 'dim_business', COUNT(*) FROM dim_business
-UNION ALL
-SELECT 'dim_loan_details', COUNT(*) FROM dim_loan_details;
 
 SELECT
     COUNT(*) AS TotalRows,
