@@ -362,6 +362,13 @@ USE sba_loan_analysis;
 
 SHOW FULL TABLES;
 
+-- =====================================================
+-- FRESH DATABASE SETUP ONLY
+-- Creates a backup of the source table.
+-- The backup already exists in the current database.
+-- DO NOT EXECUTE this statement again.
+-- =====================================================
+
 CREATE TABLE sba_loan_data_backup AS
 SELECT *
 FROM sba_loan_data;
