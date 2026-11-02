@@ -392,6 +392,14 @@ USE sba_loan_analysis;
 
 DESCRIBE sba_loan_data;
 
+-- =====================================================
+-- FRESH DATABASE SETUP ONLY
+-- Populates the dimension table from the source data.
+-- These dimension tables are already populated
+-- in the current database.
+-- DO NOT EXECUTE again on the existing database.
+-- =====================================================
+
 
 -- 1. Dimension: Approval year and date
 CREATE TABLE IF NOT EXISTS dim_approval_date (
